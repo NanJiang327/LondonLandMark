@@ -19,6 +19,14 @@
 		39726DD81EB19DFF008E5B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39726DD61EB19DFF008E5B9F /* LaunchScreen.storyboard */; };
 		39726DE31EB19DFF008E5B9F /* particeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39726DE21EB19DFF008E5B9F /* particeAppTests.m */; };
 		39726DEE1EB19DFF008E5B9F /* particeAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39726DED1EB19DFF008E5B9F /* particeAppUITests.m */; };
+		4E11C49C1F31885300A23DAA /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E11C49B1F31885300A23DAA /* PopupView.m */; };
+		4E11C49F1F318AAD00A23DAA /* PopUpViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E11C49E1F318AAD00A23DAA /* PopUpViewViewController.m */; };
+		4E11C4A51F31D1F300A23DAA /* Item3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E11C4A41F31D1F300A23DAA /* Item3ViewController.m */; };
+		4E11C4B11F31DB6800A23DAA /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E11C4AE1F31DA2E00A23DAA /* Charts.framework */; };
+		4E11C4B21F31DB6800A23DAA /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E11C4AE1F31DA2E00A23DAA /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4E11C4BD1F31E09800A23DAA /* Charts-Bridging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E11C4BC1F31E09800A23DAA /* Charts-Bridging.swift */; };
+		4E11C4C31F31E40600A23DAA /* BarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E11C4C21F31E40600A23DAA /* BarChartViewController.m */; };
+		4E33F27F1F3078F8007F1AA1 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E33F27E1F3078F8007F1AA1 /* BasicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,42 @@
 			remoteGlobalIDString = 39726DC41EB19DFF008E5B9F;
 			remoteInfo = particeApp;
 		};
+		4E11C4AD1F31DA2E00A23DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E11C4A81F31DA2E00A23DAA /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F241D8110E600722320;
+			remoteInfo = Charts;
+		};
+		4E11C4AF1F31DA2E00A23DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E11C4A81F31DA2E00A23DAA /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F2E1D8110E600722320;
+			remoteInfo = ChartsTests;
+		};
+		4E11C4B31F31DB6800A23DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E11C4A81F31DA2E00A23DAA /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 06165F231D8110E600722320;
+			remoteInfo = Charts;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E11C4B51F31DB6800A23DAA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4E11C4B21F31DB6800A23DAA /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		393871501EB7399A003662BE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
@@ -62,6 +105,19 @@
 		39726DE91EB19DFF008E5B9F /* particeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = particeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39726DED1EB19DFF008E5B9F /* particeAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = particeAppUITests.m; sourceTree = "<group>"; };
 		39726DEF1EB19DFF008E5B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E11C49A1F31885300A23DAA /* PopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupView.h; sourceTree = "<group>"; };
+		4E11C49B1F31885300A23DAA /* PopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
+		4E11C49D1F318AAD00A23DAA /* PopUpViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpViewViewController.h; sourceTree = "<group>"; };
+		4E11C49E1F318AAD00A23DAA /* PopUpViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpViewViewController.m; sourceTree = "<group>"; };
+		4E11C4A31F31D1F300A23DAA /* Item3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item3ViewController.h; sourceTree = "<group>"; };
+		4E11C4A41F31D1F300A23DAA /* Item3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item3ViewController.m; sourceTree = "<group>"; };
+		4E11C4A81F31DA2E00A23DAA /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Downloads/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		4E11C4B91F31E02300A23DAA /* particeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "particeApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		4E11C4BC1F31E09800A23DAA /* Charts-Bridging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Charts-Bridging.swift"; sourceTree = "<group>"; };
+		4E11C4C11F31E40600A23DAA /* BarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChartViewController.h; sourceTree = "<group>"; };
+		4E11C4C21F31E40600A23DAA /* BarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartViewController.m; sourceTree = "<group>"; };
+		4E33F27D1F3078F8007F1AA1 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		4E33F27E1F3078F8007F1AA1 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3938715B1EB76765003662BE /* MapKit.framework in Frameworks */,
+				4E11C4B11F31DB6800A23DAA /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +158,7 @@
 		39726DBC1EB19DFF008E5B9F = {
 			isa = PBXGroup;
 			children = (
+				4E11C4A81F31DA2E00A23DAA /* Charts.xcodeproj */,
 				39726DC71EB19DFF008E5B9F /* particeApp */,
 				39726DE11EB19DFF008E5B9F /* particeAppTests */,
 				39726DEC1EB19DFF008E5B9F /* particeAppUITests */,
@@ -122,19 +180,13 @@
 		39726DC71EB19DFF008E5B9F /* particeApp */ = {
 			isa = PBXGroup;
 			children = (
+				4E11C4991F31881200A23DAA /* DesignableViews */,
+				4E33F2731F306D5D007F1AA1 /* Model */,
+				4E33F2721F306D55007F1AA1 /* View */,
+				4E33F2711F306D46007F1AA1 /* Controller */,
 				39726DCB1EB19DFF008E5B9F /* AppDelegate.h */,
 				39726DCC1EB19DFF008E5B9F /* AppDelegate.m */,
-				395AFF551EB81AEA00EA6F8E /* MapPin.h */,
-				395AFF561EB81AEA00EA6F8E /* MapPin.m */,
-				393871511EB7399A003662BE /* TableViewController.m */,
-				393871501EB7399A003662BE /* TableViewController.h */,
-				393871541EB739D6003662BE /* TableViewCell.m */,
-				393871531EB739D6003662BE /* TableViewCell.h */,
-				393871561EB76581003662BE /* DetailViewController.h */,
-				393871571EB76581003662BE /* DetailViewController.m */,
-				39726DD11EB19DFF008E5B9F /* Main.storyboard */,
 				39726DD41EB19DFF008E5B9F /* Assets.xcassets */,
-				39726DD61EB19DFF008E5B9F /* LaunchScreen.storyboard */,
 				39726DD91EB19DFF008E5B9F /* Info.plist */,
 				39726DC81EB19DFF008E5B9F /* Supporting Files */,
 			);
@@ -145,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				39726DC91EB19DFF008E5B9F /* main.m */,
+				4E11C4B91F31E02300A23DAA /* particeApp-Bridging-Header.h */,
+				4E11C4BC1F31E09800A23DAA /* Charts-Bridging.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -167,6 +221,63 @@
 			path = particeAppUITests;
 			sourceTree = "<group>";
 		};
+		4E11C4991F31881200A23DAA /* DesignableViews */ = {
+			isa = PBXGroup;
+			children = (
+				4E11C49A1F31885300A23DAA /* PopupView.h */,
+				4E11C49B1F31885300A23DAA /* PopupView.m */,
+			);
+			name = DesignableViews;
+			sourceTree = "<group>";
+		};
+		4E11C4A91F31DA2E00A23DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E11C4AE1F31DA2E00A23DAA /* Charts.framework */,
+				4E11C4B01F31DA2E00A23DAA /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E33F2711F306D46007F1AA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				393871511EB7399A003662BE /* TableViewController.m */,
+				393871501EB7399A003662BE /* TableViewController.h */,
+				393871561EB76581003662BE /* DetailViewController.h */,
+				393871571EB76581003662BE /* DetailViewController.m */,
+				4E33F27D1F3078F8007F1AA1 /* BasicViewController.h */,
+				4E33F27E1F3078F8007F1AA1 /* BasicViewController.m */,
+				4E11C49D1F318AAD00A23DAA /* PopUpViewViewController.h */,
+				4E11C49E1F318AAD00A23DAA /* PopUpViewViewController.m */,
+				4E11C4A31F31D1F300A23DAA /* Item3ViewController.h */,
+				4E11C4A41F31D1F300A23DAA /* Item3ViewController.m */,
+				4E11C4C11F31E40600A23DAA /* BarChartViewController.h */,
+				4E11C4C21F31E40600A23DAA /* BarChartViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4E33F2721F306D55007F1AA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39726DD61EB19DFF008E5B9F /* LaunchScreen.storyboard */,
+				39726DD11EB19DFF008E5B9F /* Main.storyboard */,
+				393871531EB739D6003662BE /* TableViewCell.h */,
+				393871541EB739D6003662BE /* TableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4E33F2731F306D5D007F1AA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				395AFF551EB81AEA00EA6F8E /* MapPin.h */,
+				395AFF561EB81AEA00EA6F8E /* MapPin.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,10 +288,12 @@
 				39726DC11EB19DFF008E5B9F /* Sources */,
 				39726DC21EB19DFF008E5B9F /* Frameworks */,
 				39726DC31EB19DFF008E5B9F /* Resources */,
+				4E11C4B51F31DB6800A23DAA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4E11C4B41F31DB6800A23DAA /* PBXTargetDependency */,
 			);
 			name = particeApp;
 			productName = particeApp;
@@ -235,6 +348,7 @@
 					39726DC41EB19DFF008E5B9F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = ZFKDP4EDWR;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					39726DDD1EB19DFF008E5B9F = {
@@ -262,6 +376,12 @@
 			mainGroup = 39726DBC1EB19DFF008E5B9F;
 			productRefGroup = 39726DC61EB19DFF008E5B9F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4E11C4A91F31DA2E00A23DAA /* Products */;
+					ProjectRef = 4E11C4A81F31DA2E00A23DAA /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				39726DC41EB19DFF008E5B9F /* particeApp */,
@@ -270,6 +390,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4E11C4AE1F31DA2E00A23DAA /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 4E11C4AD1F31DA2E00A23DAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E11C4B01F31DA2E00A23DAA /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 4E11C4AF1F31DA2E00A23DAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		39726DC31EB19DFF008E5B9F /* Resources */ = {
@@ -303,10 +440,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E11C4BD1F31E09800A23DAA /* Charts-Bridging.swift in Sources */,
 				395AFF571EB81AEA00EA6F8E /* MapPin.m in Sources */,
+				4E11C49F1F318AAD00A23DAA /* PopUpViewViewController.m in Sources */,
+				4E33F27F1F3078F8007F1AA1 /* BasicViewController.m in Sources */,
+				4E11C4A51F31D1F300A23DAA /* Item3ViewController.m in Sources */,
 				393871581EB76581003662BE /* DetailViewController.m in Sources */,
 				39726DCD1EB19DFF008E5B9F /* AppDelegate.m in Sources */,
 				393871551EB739D6003662BE /* TableViewCell.m in Sources */,
+				4E11C49C1F31885300A23DAA /* PopupView.m in Sources */,
+				4E11C4C31F31E40600A23DAA /* BarChartViewController.m in Sources */,
 				393871521EB7399A003662BE /* TableViewController.m in Sources */,
 				39726DCA1EB19DFF008E5B9F /* main.m in Sources */,
 			);
@@ -340,6 +483,11 @@
 			isa = PBXTargetDependency;
 			target = 39726DC41EB19DFF008E5B9F /* particeApp */;
 			targetProxy = 39726DEA1EB19DFF008E5B9F /* PBXContainerItemProxy */;
+		};
+		4E11C4B41F31DB6800A23DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 4E11C4B31F31DB6800A23DAA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -456,30 +604,40 @@
 		39726DF31EB19DFF008E5B9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ZFKDP4EDWR;
 				INFOPLIST_FILE = particeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nan.particeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "particeApp/particeApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		39726DF41EB19DFF008E5B9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ZFKDP4EDWR;
 				INFOPLIST_FILE = particeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nan.particeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "particeApp/particeApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		39726DF61EB19DFF008E5B9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ZFKDP4EDWR;
 				INFOPLIST_FILE = particeAppTests/Info.plist;
@@ -493,6 +651,7 @@
 		39726DF71EB19DFF008E5B9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ZFKDP4EDWR;
 				INFOPLIST_FILE = particeAppTests/Info.plist;
@@ -506,6 +665,7 @@
 		39726DF91EB19DFF008E5B9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ZFKDP4EDWR;
 				INFOPLIST_FILE = particeAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -518,6 +678,7 @@
 		39726DFA1EB19DFF008E5B9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ZFKDP4EDWR;
 				INFOPLIST_FILE = particeAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

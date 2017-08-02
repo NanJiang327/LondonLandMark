@@ -18,7 +18,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    sdsdsdsdsds
     title =@[@"Big Ben",@"Buckingham Palace",@"London Eye",@"St Paul's Cathedral",@"Tower Bridge",@"Westminster Abbey"];
     description = @[@"London SW1A 0AA",@"London SW1A 1AA",@"London SE1 7P8",@"London EC4M 8AD",@"London SE1 2UP",@"London SW1P 3PA"];
     image = @[@"BigBen.jpg",@"BuckinghamPalace.jpg",@"LondonEye.jpg",@"St-Pauls.jpg",@"TowerBridge.jpg",@"WestminsterAbbey.jpg"];
@@ -61,33 +60,6 @@
     // Return NO if you do not want the specified item to be editable.
     return YES;
 }
-
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 
 #pragma mark - Navigation
