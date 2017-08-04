@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "particeApp-Bridging-Header.h"
 
-@interface BarChartViewController : UIViewController
+@interface BarChartViewController : UIViewController{
+    NSArray *date;
+    NSInteger onlineStoreNumbers[10];
+    NSArray *offlineStoreNumber;
+}
 
 @end

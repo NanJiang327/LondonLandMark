@@ -12,6 +12,7 @@
 
 - (IBAction)backButton:(id)sender;
 @property (strong, nonatomic) IBOutlet UIView *popUpView;
+@property (strong, nonatomic) IBOutlet UIView *conerView;
 @property (strong, nonatomic) IBOutlet UIImageView *londonEyeView;
 @property (strong, nonatomic) IBOutlet UIImageView *bigBenView;
 - (IBAction)segmentedControll:(id)sender;
@@ -28,6 +29,7 @@
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.shadowImage = [UIImage new];
     //self.navigationController.navigationBar.translucent = YES;
+    _conerView.layer.cornerRadius = 30;
     _popUpView.layer.cornerRadius = 10;
     _londonEyeView.layer.cornerRadius = 10;
     _bigBenView.layer.cornerRadius = 10;

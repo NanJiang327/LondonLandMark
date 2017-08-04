@@ -407,9 +407,14 @@
                                     </connections>
                                 </segmentedControl>
                                 <view alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nr2-e3-Iaa">
-                                    <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                    <rect key="frame" x="67" y="269" width="240" height="197"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
+                                        <view clipsSubviews="YES" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cek-tH-mJO">
+                                            <rect key="frame" x="55" y="-61" width="129" height="110"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASn-QE-KLe" userLabel="St-Paul">
                                             <rect key="frame" x="80" y="49" width="81" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -436,6 +441,7 @@
                     <navigationItem key="navigationItem" id="BG5-Xw-JXQ"/>
                     <connections>
                         <outlet property="bigBenView" destination="URE-U5-eMn" id="ydy-sI-cFe"/>
+                        <outlet property="conerView" destination="cek-tH-mJO" id="J9D-bs-TZp"/>
                         <outlet property="londonEyeView" destination="b8F-UQ-yNN" id="ckr-Tl-cUM"/>
                         <outlet property="popUpView" destination="Nr2-e3-Iaa" id="c6W-d1-7om"/>
                         <outlet property="segmentedController" destination="c6e-zs-KG0" id="GTs-7R-j5n"/>
@@ -496,7 +502,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="BTV-nz-hf1"/>
                     <connections>
-                        <outlet property="lineChartView" destination="oks-ad-ig8" id="IVG-Eq-PEc"/>
+                        <outlet property="lineChartView" destination="oks-ad-ig8" id="GeU-Bd-dHX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mGv-c2-xXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -506,7 +512,6 @@
         <!--PopUpview-->
         <scene sceneID="7hQ-SJ-5GK">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yft-lb-dx2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5od-bA-ibD" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="PopUpview" id="q9o-5d-9ag"/>
                     <toolbarItems/>
@@ -519,6 +524,7 @@
                         <segue destination="FLb-Oq-hUz" kind="relationship" relationship="rootViewController" id="K1g-01-COK"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yft-lb-dx2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1098.4000000000001" y="1459.52023988006"/>
         </scene>
@@ -527,7 +533,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W4Z-hl-EsL" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="HDE-IL-kzk">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HDE-IL-kzk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
